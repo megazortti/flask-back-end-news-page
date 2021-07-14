@@ -2,7 +2,9 @@ import sqlite3
 conn = sqlite3.connect('database.db')
 cursor = conn.cursor()
 # cursor.execute("DELETE FROM relacao_curtidas WHERE 1=1")
+# cursor.execute("DELETE FROM noticia WHERE 1=1")
 # conn.commit()
+
 
 
 
