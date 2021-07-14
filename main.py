@@ -14,7 +14,7 @@ def not_found(e):
                     {"message": str("Não é possível encontar essa página.")}
                 ),
                 200
-            )
+            )#
     response.headers["Content-Type"] = "application/json"
     return response
 
@@ -215,4 +215,4 @@ app.config['JSON_AS_UTF8'] = True
 
 CORS(app, resources={r"/*": {"origins": "*"}})
 #app.run(debug=True, host="192.168.15.60")
-app.run(debug=True)
+#app.run(debug=True)
